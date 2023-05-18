@@ -1,0 +1,33 @@
+* {
+    padding:none;
+    margin:none;
+    box-sizing: border-box;
+}
+
+.container {
+    text-align: center;
+}
+
+header form {
+    text-align: center;
+}
+
+form {
+    margin-top: 48px;
+}
+
+li {
+    list-style: none;
+    padding:4px;
+    cursor:pointer;
+}
+
+.lista-tarefas form, .lista-tarefas li {
+    margin-left: none;
+    align-items: flex-start;
+}
+
+.tarefas-clicadas {
+    font-weight: bold;
+    text-decoration: line-through;
+  }
